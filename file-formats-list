@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Webpage title and favicon (the little icon for the page)-->
+  <title>The Sonic 4 BONUS Site - Useless Facts</title>
+  <link rel = "icon" type = "image/x-icon" href = "images/favicon.ico">
+
+  <!--Note to self: The stuff in the style tag is CSS-->
+  <style>
+    /* Background image */
+    body {
+      background-image: url("images/bg.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+  <body>
+    <div style = "text-align: center">
+      <img src = "images/logo.png" alt = "Logo" class = "center">
+    </div>
+
+    <section>
+      <div style = "text-align: center">
+        <h1>File Formats</h1>
+        <h2>Sonic the Hedgehog 4: Episode I</h2>
+        <p>List of file formats used in each port of Sonic the Hedgehog 4: Episode I</p>
+        <h3>Common/Shared</h3>
+        <ul>
+          <li>CPK - Archive file</li>
+          <li>AMB - Archive file</li>
+          <li>DDS - Image file</li>
+          <li>AAX - Audio file</li>
+          <li>ADX - Audio file</li>
+          <li>CSB - Audio archive</li>
+          <li>MSG - Text file</li>
+        </ul>
+
+        <br>
+        <h3>Microsoft Windows</h3>
+        <ul>
+          <li>ZNO - Model file</li>
+        </ul>
+
+        <br>
+        <h3>Mobile</h3>
+        <ul>
+          <li>DZ - Archive file</li>
+          <li>PNG - Image file</li>
+          <li>PRV - Sprite/Texture file</li>
+          <li>INO - Model file</li>
+          <li>MP3 - Audio file</li>
+          <li>WAV - Audio file</li>
+        </ul>
+
+        <br>
+        <h3>Wii</h3>
+        <ul>
+          <li>GVR - Sprite/Texture file</li>
+          <li>GNO - Model file</li>
+          <li>BRSAR - Audio archive</li>
+        </ul>
+
+        <br>
+        <h3>PlayStation 3</h3>
+        <ul>
+          <li>CNO - Model file</li>
+        </ul>
+
+        <br>
+        <h3>Xbox 360</h3>
+        <ul>
+          <li>ENO - Model file</li>
+        </ul>
+      </div>
+    </section>
+
+  </body>
+</html>
