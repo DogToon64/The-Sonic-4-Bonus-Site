@@ -7,47 +7,92 @@
 
   <!--Note to self: The stuff in the style tag is CSS-->
   <style>
-    /* Background image */
+    /* Page layout */
     body {
+      /* Font */
+      font-family: Arial;
+
+      /* Background image */
       background-image: url("images/bg.png");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+
+      /* Margins */
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    /* Sections */
+    section {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    section.bottom_page_text {
+      text-align: center;
+      background-color: #728394;
+    }
+
+    /* Headers */
+    h1.inside {
+      text-align: left;
+
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-left: 15px;
+    }
+
+    h2.inside {
+      text-align: left;
+
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-left: 15px;
+    }
+
+    h3.inside {
+      text-align: left;
+
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-left: 15px;
     }
 
     /* Change logo size */
     img.logo {
-      width: auto;
+      width: 40%;
       height: auto;
     }
 
+    /* Text for the top of the page */
+    p.title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.6vw
+    }
+
+    /* Unordered list */
     ul {
       text-align: left;
       list-style-position: inside;
-      padding-left: 69px;
-    }
-
-    div {
-      margin-top: 0px;
-      margin-bottom: 0px;
-
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 10px;
-      padding-right: 10px;
     }
   </style>
 </head>
 
   <body>
     <div style = "text-align: center">
-      <a href = "https://dogtoon64.github.io/The-Sonic-4-Bonus-Site/" title = "Home"><img class = "logo" src = "images/logo.png" alt = "Logo" class = "center"></a>
+      <a href = "https://dogtoon64.github.io/The-Sonic-4-Bonus-Site/" title = "Home"><img class = "logo" src = "images/logo.png" alt = "Logo" style = "height: 10%"></a>
     </div>
 
     <section style = "background-color:#FFFFFF;">
       <div style = "text-align: center">
-        <h1>Useless Sonic 4 facts</h1>
-        <h2>Sonic the Hedgehog 4: Episode I</h2>
+        <h1 class = "inside">Useless Sonic 4 facts</h1>
+        <h2 class = "inside">Sonic the Hedgehog 4: Episode I</h2>
         <ul>
           <li>The game wasn't initially meant to be a mainline Sonic game, but a spin-off title known as "Sonic the Portable". The ferris wheel in Casino Street Zone in the background has the name.</li>
           <li>Sonic's model in the Windows Phone and older versions of the iOS version is different; it's based on the Sonic Rush Adventure model.</li>
@@ -58,11 +103,9 @@
       </div>
     </section>
 
-    <section style = "background-color:#728394;">
-      <div style = "text-align: center">
-        <br>
-        <p style = "color: #FFFFFF;">The Sonic 4 Bonus Site is not associated with SEGA, Sonic Team, or Dimps.</p>
-        <br>
+    <section class = "bottom_page_text">
+      <div>
+        <p style = "color: #FFFFFF;"><b>The Sonic 4 Bonus Site is not associated with SEGA, Sonic Team, or Dimps.</b></p>
       </div>
     </section>
 
